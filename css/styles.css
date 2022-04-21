@@ -102,7 +102,7 @@
     transition:all 0.3s ease ;
 }
 
-@media screen and(max-width:960px) {
+@media screen and (max-width:960px) {
     .navbar__container{
         display: flex;
         justify-content: space-between;
@@ -111,6 +111,7 @@
         width: 100%;
         max-width: 1300px;
         padding:0;
+        background: #131313;
     }
     .navbar__menu{
         display: grid;
@@ -168,6 +169,7 @@
     .navbar__btn {
         padding-bottom: 2rem;
     }
+
     .button{
         display: flex;
         justify-content: center;
@@ -175,5 +177,22 @@
         width: 80%;
         height: 80px;
         margin: 0;
+    }
+
+    .navbar__toggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform:translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform:translateY(-8px) rotate(-45deg);
     }
 }
