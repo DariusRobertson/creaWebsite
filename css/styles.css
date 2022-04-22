@@ -432,3 +432,68 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+.serv__card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .serv{
+        height: 1600px;
+    }
+
+    .serv h1 {
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .serv {
+        height: 1400px;
+    }
+    .serv h1 {
+        font-size: 1.2rem;
+    }
+
+    .serv__card {
+        width: 300px;
+    }
+}
+
+/* footer Section css */
+.footer__container{
+    background-color: #141414;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.footer__links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_links--wrapper{
+    display: flex;
+}
+
+.footer__links--items a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size:1.5rem;
+    padding: .5rem;
+}
+
+.footer__links--items a:hover{
+    color: #f77062 ;
+    transition: 0.3s ease-out;
+}
