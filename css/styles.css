@@ -198,7 +198,7 @@
 }
 
 
-/* Hero section css*/
+/* Homepage section css*/
 
 .main {
     background-color: #141414;
@@ -388,19 +388,63 @@
     width: 400px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
-     rgba(17,17,17,0.6) 100%), url(../Photos/tattoogun.jpg);
+     rgba(17,17,17,0.6) 100%), url(../Photos/david\ Zobel.jpg);
     background-size: cover;
     position: relative;
     color: white;
 }
 
-.serv__card:nth-child(2){
+.serv__card--2{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
+     rgba(17,17,17,0.6) 100%), url(../Photos/Imani.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.serv__card--3{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
+     rgba(17,17,17,0.6) 100%), url(../Photos/phill.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.serv__card--4{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
+     rgba(17,17,17,0.6) 100%), url(../Photos/Chris.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.serv__card--5{
     margin: 1rem;
     height: 525px;
     width: 400px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
      rgba(17,17,17,0.6) 100%), url(../Photos/coverUp.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.serv__card--6{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
+     rgba(17,17,17,0.6) 100%), url(../Photos/tattoogun.jpg);
     background-size: cover;
     position: relative;
     color: white;
@@ -413,6 +457,37 @@
 }
 
 .serv__card p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+
+}
+
+.serv__card--2 p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+
+}
+.serv__card--3 p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+
+}
+.serv__card--4 p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+
+}
+.serv__card--5 p{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+
+}
+.serv__card--6 p{
     position: absolute;
     top: 400px;
     left: 30px;
@@ -432,8 +507,99 @@
     font-size: 1rem;
     cursor: pointer;
 }
+.serv__card--2 button {
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top:440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.serv__card--3 button {
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top:440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.serv__card--4 button {
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top:440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.serv__card--5 button {
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top:440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.serv__card--6 button {
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top:440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
 .serv__card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.serv__card--2:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.serv__card--3:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.serv__card--4:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.serv__card--5:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.serv__card--6:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer;
@@ -460,6 +626,21 @@
     }
 
     .serv__card {
+        width: 300px;
+    }
+    .serv__card--2 {
+        width: 300px;
+    }
+    .serv__card--3 {
+        width: 300px;
+    }
+    .serv__card--4 {
+        width: 300px;
+    }
+    .serv__card--5 {
+        width: 300px;
+    }
+    .serv__card--6 {
         width: 300px;
     }
 }
